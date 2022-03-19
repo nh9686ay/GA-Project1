@@ -1,1 +1,1 @@
-# GA-Project1
+Project : Rock Paper Sciccors Game (Web only).
