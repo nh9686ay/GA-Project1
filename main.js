@@ -17,13 +17,13 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 }))
 
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 3) + 1 // or you can use possibleChoices.length
+    const randomNumber = Math.floor(Math.random() * 3) + 1 //  possibleChoices.length
     if (randomNumber === 1) computerChoice = ('rock');
     if (randomNumber === 2) computerChoice = ('scissors');
     if (randomNumber === 3) computerChoice = ('paper');
     computerChoiceDisplay.innerHTML = computerChoice
 }
-//REVIEW: is this a good practise to keep if stats clean?
+//NOTE: is this a good practise to keep if stats clean?
 function getResult() {
     if (computerChoice === userChoice) result = ('its a draw!');
     if (computerChoice === 'rock' && userChoice === "paper") result = ('you win!');
@@ -39,18 +39,9 @@ function getResult() {
     ps_t.innerHTML = ("You: " + ps);
     resultDisplay.innerHTML = result
 }
+//------------------------------------------End---------------------------------------------
 
-// added
-var bg = new Trianglify({
-    noiseIntensity: 0,
-    cellsize: 50,
-    cellpadding: 10,
-    fillOpacity: 1,
-    strokeOpacity: 0
-});
-
-var pattern = bg.generate(document.body.clientWidth, document.body.clientHeight);
-document.body.setAttribute('style', 'background-image: ' + pattern.dataUrl);
+//TODO: 1. script for animated button hover effect 2. footer script 
 
 
-// added
+// NOTE: dry,non-repeat, efficient code
