@@ -1,0 +1,222 @@
+/* ------------ */
+body {
+    font-family: 'Bangers';
+    background-image: url("https://miro.medium.com/max/1200/1*AcYLHh0_ve4TNRi6HLFcPA.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Black Han Sans';
+    font-size: 40px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#canva {
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* end */
+.game-card {
+    font-family: 'Rubik Beastly';
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: bisque;
+    font-size: 30px;
+    width: 145px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+#rock,
+#paper,
+#scissors {
+    margin-top: 10%;
+}
+
+.restartButton {
+    box-shadow: 0 0 10px 3px teal;
+    font-family: 'Rubik Beastly';
+    background-color: bisque;
+    font-size: 31px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12%;
+    width: 145px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid black;
+    animation: spin 1.8s linear infinite;
+}
+
+
+/* @keyframes spin {
+    0% {
+        border: 5px solid black;
+    }
+
+    100% {
+        border: 5px solid pink;
+
+    }
+} */
+
+.winScore {
+    font-family: 'Black Han Sans';
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    flex-direction: column-reverse;
+    margin: -1100px 0px 0px 0px;
+}
+
+.start {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2C3940;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    flex-direction: column;
+    z-index: 600;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+}
+
+.start button {
+    font-family: 'Monoton';
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-shadow: 4px 3px 1px red, 2px 2px 1px red;
+    font-size: 2.5rem;
+    background-color: bisque;
+    border: 1px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+label {
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    right: 30px;
+    top: 15px;
+    border: 4px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 500;
+}
+
+label:before {
+    /* button slide from left */
+    position: absolute;
+    content: '';
+    width: 39px;
+    height: 36px;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    background: #000;
+    transition: 0.40s;
+    cursor: pointer;
+}
+
+label.active:before {
+    /* button slide to right  */
+    left: 48px;
+    background: #fff;
+    cursor: pointer;
+}
+
+body.night {
+    /* background: #000; */
+    background-image: url("https://cutewallpaper.org/25/animation-of-a-city-at-night-wallpaper/cartoon-city-night-wallpapers-top-free-cartoon-city-night-backgrounds--wallpaperaccess.png");
+    /* background-image: url("https://miro.medium.com/max/1400/1*8mNNZuvAjFWcFCcqEDMUpQ.png"); */
+    /* background-size: cover; */
+    color: #fff;
+}
+
+
+@media screen and (min-width:900px) {
+    .respon {
+        display: flex;
+    }
+}
+
+/* styling for start button page */
+
+.strt {
+    display: block;
+    width: 200px;
+    height: 200px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333;
+    border: 20px solid;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 50%;
+}
+
+.strt:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -50px;
+    width: 100%;
+    height: 100%;
+    background: #ff003b;
+    transition: all 0.4s;
+    opacity: 0;
+    border-radius: 50%;
+
+}
+
+.strt:hover:after {
+    transform: translateX(50px);
+    /* left: 0; */
+    width: 100%;
+    opacity: 78%;
+}
+
+footer {
+    font-family: 'Libre Barcode 39 Text';
+    font-size: 26px;
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monoton&family=Moo+Lah+Lah&family=Palette+Mosaic&family=Rammetto+One&family=Rubik+Beastly&family=Shojumaru&family=Source+Sans+Pro:wght@200&family=Supermercado+One&display=swap"
+        rel="stylesheet">
+    <!-- new font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cabin+Sketch:wght@700&family=Chewy&family=Major+Mono+Display&family=Monoton&family=Moo+Lah+Lah&family=Palette+Mosaic&family=Rammetto+One&family=Rubik+Beastly&family=Shojumaru&family=Source+Sans+Pro:wght@200&family=Supermercado+One&display=swap"
+        rel="stylesheet">
+    <!-- new font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cabin+Sketch:wght@700&family=Chewy&family=Major+Mono+Display&family=Monoton&family=Moo+Lah+Lah&family=Palette+Mosaic&family=Rammetto+One&family=Rubik+Beastly&family=Shojumaru&family=Source+Sans+Pro:wght@200&family=Supermercado+One&display=swap"
+        rel="stylesheet">
+    <!-- new font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cabin+Sketch:wght@700&family=Chewy&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Monoton&family=Moo+Lah+Lah&family=Palette+Mosaic&family=Rammetto+One&family=Rubik+Beastly&family=Shojumaru&family=Source+Sans+Pro:wght@200&family=Supermercado+One&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <canvas id="canva"></canvas>
+    <label id="dark-change"></label>
+    <h2>Computer Choice : <span id="computer-choice"></span></h2>
+    <h2>Player Choice : <span id="user-choice"></span></h2>
+    <h2>Result : <span id="result"></span></h2>
+    <div class="buttons">
+        <button class="game-card" id="rock">rock</button>
+        &nbsp;
+        <button class="game-card" id="paper">paper</button>
+        &nbsp;
+        <button class="game-card" id="scissors">scissors</button>
+    </div>
+
+    <input class="restartButton" type="button" value="ReStart" onClick="document.location.reload(true)">
+
+    <div class="winScore">
+        <div id="ys">You: 0</div>
+        &nbsp;
+        <div id="cs">Computer: 0</div>
+    </div>
+
+    <div class="start">
+        <button class="strt" onclick="hideButton()">Start!</button>
+    </div>
+    <!-- Dark -->
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function () {
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+    <script>
+        function hideButton() {
+            document.querySelector('.start').style.display = 'none';
+        }
+    </script>
+    <script src="main.js"></script>
+</body>
+<footer>
+    <h3>Emon</h3>
+    <h3>General Assembly</h3>
+</footer>
+
+</html>
