@@ -7,7 +7,7 @@
 
 # Description :
 
-Game built using basic, html, css and javascript. Game has three screens in total which are start screen, main game screen and nigth mode screen. 
+Game built using basic, html, css and javascript. Game has three screens in total which are start screen, main game screen and night mode screen. 
 
 # WireFrames :
 
