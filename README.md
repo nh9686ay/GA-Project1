@@ -12,7 +12,7 @@ Game built using basic, html, css and javascript. Game has three screens in tota
 # WireFrames :
 
 Rock, paper, scissor is a simple game. It is played to settle disputes between two person.
-```
+
 ## Project Description 
 >A short description of your game.
 In this project, the game will be built based on lots of logics. Player can choose any buttons for rock, paper, scissors and they will be able to see if they win or lose against the computer. There will be scorecard built onto the game so that player can see how many times they win, lose or draw. . Game can have multiple win scenario such as  >>
@@ -21,8 +21,8 @@ In this project, the game will be built based on lots of logics. Player can choo
                                                                           3. Game will be draw. Means no party will win. 
 
 
-## Wire Frames
-> Copy and paste or drag and drop your images here.
+
+
 ![273023782_3202701706721430_3761461059277793927_n](https://media.git.generalassemb.ly/user/41077/files/7c11d180-9b0f-11ec-8884-cc54aa309075)
 
 
@@ -36,17 +36,17 @@ As a user , I should be able to restart the game by clicking restart button
 As a user, I should be able to see how many times I win and my opponents.
 
 ### MVP Goals
-```
+
  
    1. Reset or restart the game button on page.
    2. User will have their score saved on the screen so that they can see how many times they win and lose.
 ```
 ### Stretch Goals1. Make rock, paper, scissors buttons animation with their own emojis on mouse over.
-```
+
 2. Creative loading page 
 3. Celebration for player wins (I did something similar like this in dash work General Assembly).
 4. On click effect for the buttons 
-```
+
 
 
 # InProgress :
