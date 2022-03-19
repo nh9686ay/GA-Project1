@@ -40,7 +40,7 @@ As a user, I should be able to see how many times I win and my opponents.
  
    1. Reset or restart the game button on page.
    2. User will have their score saved on the screen so that they can see how many times they win and lose.
-```
+
 ### Stretch Goals1. Make rock, paper, scissors buttons animation with their own emojis on mouse over.
 
 2. Creative loading page 
