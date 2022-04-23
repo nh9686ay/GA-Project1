@@ -40,8 +40,3 @@ function getResult() {
     resultDisplay.innerHTML = result
 }
 //------------------------------------------End---------------------------------------------
-
-//TODO: 1. script for animated button hover effect 2. footer script 
-
-
-// NOTE: dry,non-repeat, efficient code
