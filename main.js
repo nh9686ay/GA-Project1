@@ -23,7 +23,7 @@ function generateComputerChoice() {
     if (randomNumber === 3) computerChoice = ('paper');
     computerChoiceDisplay.innerHTML = computerChoice
 }
-//NOTE: is this a good practise to keep if stats clean?
+
 function getResult() {
     if (computerChoice === userChoice) result = ('its a draw!');
     if (computerChoice === 'rock' && userChoice === "paper") result = ('you win!');
@@ -39,4 +39,3 @@ function getResult() {
     ps_t.innerHTML = ("You: " + ps);
     resultDisplay.innerHTML = result
 }
-//------------------------------------------End---------------------------------------------
