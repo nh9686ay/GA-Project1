@@ -2,7 +2,7 @@
 # Project : Rock Paper Scissor Game
 
 1.GamePlay screenshot
-
+Deployed version : https://nh9686ay.github.io/General-Assembly-Project-One/
 ![12](https://user-images.githubusercontent.com/89279974/173189212-a6577831-49b1-4957-abb3-46076d6f9391.PNG)
 
 
