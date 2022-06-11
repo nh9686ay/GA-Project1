@@ -2,7 +2,8 @@
 # Project : Rock Paper Scissor Game
 
 1.GamePlay screenshot
-![Screenshot1](https://user-images.githubusercontent.com/89279974/159103964-5814715f-badf-49a4-9bf9-e77a3aaa1f98.png)
+
+![12](https://user-images.githubusercontent.com/89279974/173189212-a6577831-49b1-4957-abb3-46076d6f9391.PNG)
 
 
 # Description :
@@ -15,7 +16,7 @@ Rock, paper, scissor is a simple game. It is played to settle disputes between t
 
 ## Project Description 
 >A short description of your game.
-In this project, the game will be built based on lots of logics. Player can choose any buttons for rock, paper, scissors and they will be able to see if they win or lose against the computer. There will be scorecard built onto the game so that player can see how many times they win, lose or draw. . Game can have multiple win scenario such as  >>
+ Player can choose any buttons for rock, paper, scissors and they will be able to see if they win or lose against the computer. There will be scorecard built onto the game so that player can see how many times they win, lose or draw. . Game can have multiple win scenario such as  >>
                                                                           1. Player wins and computer lose.
                                                                           2. Computer wins and player lose.
                                                                           3. Game will be draw. Means no party will win. 
